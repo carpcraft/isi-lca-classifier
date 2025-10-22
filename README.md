@@ -19,17 +19,13 @@ The app computes posterior class probabilities for each individual response prof
 
 ## How it works
 
-Given item responses \(x_1,\dots,x_7\) (0–4), posterior probabilities are computed as:
+Given 7 ISI item scores (each 0–4):
 
-\[
-P(\text{class}=k|\mathbf{x}) \propto \pi_k \prod_{i=1}^{7} \theta_{i,\,x_i+1,\,k}
-\]
-
-- \(\pi_k\): class prior (mixing proportion)  
-- \(\theta_{i,c,k}\): conditional probability that item *i* takes category *c* in class *k*  
-- \(x_i+1\): category index shift ([poLCA](https://dlinzer.github.io/poLCA/) uses 1–5 internally)  
-
-All posteriors are normalized to sum to 1.
+1. Shift each item to 1–5 ([poLCA](https://dlinzer.github.io/poLCA/) uses 1–5 internally).
+2. For each class k, multiply:
+   (a) the class prior π_k and
+   (b) the conditional probability of each observed item category under class k.
+3. Normalize the four results so they sum to 1 — those are the posterior class probabilities.
 
 ---
 
