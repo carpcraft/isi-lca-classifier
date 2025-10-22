@@ -27,7 +27,7 @@ P(\text{class}=k|\mathbf{x}) \propto \pi_k \prod_{i=1}^{7} \theta_{i,\,x_i+1,\,k
 
 - \(\pi_k\): class prior (mixing proportion)  
 - \(\theta_{i,c,k}\): conditional probability that item *i* takes category *c* in class *k*  
-- \(x_i+1\): category index shift (poLCA uses 1–5 internally)  
+- \(x_i+1\): category index shift ([poLCA](https://dlinzer.github.io/poLCA/) uses 1–5 internally)  
 
 All posteriors are normalized to sum to 1.
 
@@ -125,11 +125,11 @@ If you use this code, please cite:
 
 <small>Carpi M. et al. (2025). *Deriving subtypes from the Insomnia Severity Index: a latent class analysis and comparison of features.* *Behavioral Sleep Medicine.* https://doi.org/10.1080/15402002.2025.2539961</small>
 
-Permanent archive: OSF repository at https://osf.io/xxxxx
+**Permanent archive:** OSF repository at https://osf.io/xxxxx
 
 ---
 
 
 **Contact:**  
-Matteo Carpi – Department of Human Neuroscience, Sapienza University of Rome  
+Matteo Carpi – Sapienza University of Rome  
 Email: matteo.carpi@uniroma1.it
