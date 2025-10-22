@@ -123,9 +123,9 @@ MIT License – Matteo Carpi (2025)
 
 If you use this code, please cite:
 
-<small>Carpi M. et al. (2025). *Deriving subtypes from the Insomnia Severity Index: a latent class analysis and comparison of features.* *Behavioral Sleep Medicine.*</small>
+<small>Carpi M. et al. (2025). *Deriving subtypes from the Insomnia Severity Index: a latent class analysis and comparison of features.* *Behavioral Sleep Medicine.* https://doi.org/10.1080/15402002.2025.2539961</small>
 
-A permanently archived copy will be available on OSF: https://github.com/USERNAME/isi-lca-classifier
+Permanent archive: OSF repository at https://osf.io/xxxxx
 
 ---
 
