@@ -23,9 +23,9 @@ Given 7 ISI item scores (each 0–4):
 
 1. Shift each item to 1–5 ([poLCA](https://dlinzer.github.io/poLCA/) uses 1–5 internally).
 2. For each class k, multiply:
-   (a) the class prior π_k and
-   (b) the conditional probability of each observed item category under class k.
-3. Normalize the four results so they sum to 1 — those are the posterior class probabilities.
+   - the class prior π_k and
+   - the conditional probability of each observed item category under class k.
+4. Normalize the four results so they sum to 1 — those are the posterior class probabilities.
 
 ---
 
