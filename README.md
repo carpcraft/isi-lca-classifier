@@ -129,7 +129,7 @@ If you use this code, please cite:
 
 <small>Carpi M. et al. (2025). *Deriving subtypes from the Insomnia Severity Index: a latent class analysis and comparison of features.* *Behavioral Sleep Medicine.* https://doi.org/10.1080/15402002.2025.2539961</small>
 
-**Permanent archive:** OSF repository at https://osf.io/xxxxx
+**Permanent archive:** OSF repository at https://osf.io/2w6uv/
 
 ---
 
