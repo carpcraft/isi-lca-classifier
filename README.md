@@ -113,6 +113,11 @@ Outputs are **probabilistic**, not diagnostic, and the model was trained on a sa
 
 ---
 
+## Try it online
+You can run the app in your browser here: https://mcarpi.shinyapps.io/isi-lpa-classifier/
+
+---
+
 ## License & Citation
 
 MIT License – Matteo Carpi (2025)
