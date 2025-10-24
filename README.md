@@ -1,7 +1,7 @@
 [![Live app](https://img.shields.io/badge/Live%20app-isi--lca--classifier-blue)](https://mcarpi.shinyapps.io/isi-lpa-classifier/)
 
 
-# ISI-LCA Classifier (Shiny App)
+# Insomnia-LCA Classifier (Shiny App)
 
 **Author:** Matteo Carpi  
 
